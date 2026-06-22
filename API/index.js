@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.json({ message: 'API is 2' });
+  res.json({ message: 'API is 55' });
 });
 
 app.listen(PORT, () => {
